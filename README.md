@@ -76,11 +76,11 @@ Then need to add implementation of QuickBlox UIKit and QuickBlox SDK to dependen
 
 ```
 dependencies {
-    implementation "com.quickblox:android-ui-kit:0.4.0"
+    implementation "com.quickblox:android-ui-kit:0.5.0"
     
-    implementation "com.quickblox:android-ai-answer-assistant:1.0.1"
-    implementation "com.quickblox:android-ai-translate:1.0.0"
-    implementation "com.quickblox:android-ai-editing-assistant:2.0.0"
+    implementation "com.quickblox:android-ai-answer-assistant:2.0.0"
+    implementation "com.quickblox:android-ai-translate:2.0.0"
+    implementation "com.quickblox:android-ai-editing-assistant:2.1.0"
 
     implementation 'com.quickblox:quickblox-android-sdk-messages:4.1.1'
     implementation 'com.quickblox:quickblox-android-sdk-chat:4.1.1'
