@@ -1,0 +1,251 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.quickblox",
+    "module": "android-ui-kit",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-messages",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-chat",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-content",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "android-ai-answer-assistant",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "android-ai-translate",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "android-ai-editing-assistant",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-ui-kit-0.7.0.aar",
+          "url": "android-ui-kit-0.7.0.aar",
+          "size": 2077822,
+          "sha512": "7b16ce927c6fd5df39ca2987f09e21363ad61e7abed10d73798f963d61380424b597ba661f5b5824c40bc8a6c8272c6810264259535a34cd66402f07af42d51e",
+          "sha256": "0fbd34bb404a2b617a63ada77981773e78ae7a8954def516b026c5f607e6a641",
+          "sha1": "670d0523e165789b2ed3b7f2420a3c9e1aa091f6",
+          "md5": "d19232d5c1f439c675b164868a8c65d9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.5.6"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "android.arch.lifecycle",
+          "module": "extensions",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-messages",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-chat",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "quickblox-android-sdk-content",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "android-ai-answer-assistant",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "android-ai-translate",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.quickblox",
+          "module": "android-ai-editing-assistant",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-ui-kit-0.7.0.aar",
+          "url": "android-ui-kit-0.7.0.aar",
+          "size": 2077822,
+          "sha512": "7b16ce927c6fd5df39ca2987f09e21363ad61e7abed10d73798f963d61380424b597ba661f5b5824c40bc8a6c8272c6810264259535a34cd66402f07af42d51e",
+          "sha256": "0fbd34bb404a2b617a63ada77981773e78ae7a8954def516b026c5f607e6a641",
+          "sha1": "670d0523e165789b2ed3b7f2420a3c9e1aa091f6",
+          "md5": "d19232d5c1f439c675b164868a8c65d9"
+        }
+      ]
+    }
+  ]
+}
